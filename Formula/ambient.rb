@@ -1,7 +1,7 @@
 class Ambient < Formula
   desc "Rotating terminal dashboard: time, weather, net, crypto, system, events"
   homepage "https://github.com/subimageLLC/ambient"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   livecheck do
@@ -11,21 +11,21 @@ class Ambient < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.0/ambient_0.2.0_darwin_amd64.tar.gz"
-      sha256 "251346a6a158528606d8063785df80f70ebe7da15dd0d9fa00032d7f446cf3af"
+      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.1/ambient_0.2.1_darwin_amd64.tar.gz"
+      sha256 "d67c3492c9a5fcc223c13869d47b89123495bd4bbb5858f79a0164fde4571b87"
     else
-      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.0/ambient_0.2.0_darwin_arm64.tar.gz"
-      sha256 "0952eb1f126a1e1ef4c8cb92ad9f02665017d8b8ae33d64477ca7388660644a4"
+      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.1/ambient_0.2.1_darwin_arm64.tar.gz"
+      sha256 "a550452488f818dc576e3bf2e80216caa8da5370d1e3ceeac797c7885a9e1c6f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.0/ambient_0.2.0_linux_amd64.tar.gz"
-      sha256 "db632a6aece2663fa223f119474fa5fb30bd98bd085290899a46138f64db2fe2"
+      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.1/ambient_0.2.1_linux_amd64.tar.gz"
+      sha256 "c3f3373902af543600d0db77360cddbf16e51a4cbfa56cc0587e9d2c4ffd7f81"
     else
-      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.0/ambient_0.2.0_linux_arm64.tar.gz"
-      sha256 "e14f500c20661db59c50fdcad33fbae0c7c6d300bcf304afb8b2f25bf967175d"
+      url "https://github.com/subimageLLC/ambient/releases/download/v0.2.1/ambient_0.2.1_linux_arm64.tar.gz"
+      sha256 "d509f85f777b3daf8850ad5ca0aa735a42c3257ad9af12e8a932e97007f2a943"
     end
   end
 
